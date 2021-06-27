@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | Li Tsz On</title>
+    <link>/publication-type/1/</link>
+      <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>@ 2021 Li Tsz On, powered by the Academic theme for Hugo</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu5d548e8e0743f9e525db22af49181ada_599679_512x512_fill_lanczos_center_2.png</url>
+      <title>1</title>
+      <link>/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>Uranus: Simple, efficient sgx programming and its applications</title>
+      <link>/publication/uranus/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/uranus/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Jiang, Jianyu, Xusheng Chen, TszOn Li, Cheng Wang, Tianxiang Shen, Shixiong Zhao, Heming Cui, Cho-Li Wang, and Fengwei Zhang, in the Fifteenth ACM Asia Conference on Computer and Communications Security (AsiaCCS&#39;20).
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>vSMT-IO: Improving I/O Performance and Efficiency on SMT Processors in Virtualized Clouds</title>
+      <link>/publication/vsmt/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/vsmt/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Weiwei Jia, Jianchen Shan, Tsz On Li, Heming Cui, and Xiaoning Ding. Proceedings of the 2020 USENIX Annual Technical Conference.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>UPA: An Automated, Accurate and Efficient Differentially Private Big-data Mining System</title>
+      <link>/publication/upa/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/upa/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Tsz On Li, Jianyu Jiang, Ji Qi, Chi Chiu So, Jiacheng Ma, Xusheng Chen, Tianxiang Shen, Heming Cui, Yuexuan Wang, and Peng Wang. Proceedings of the 50th IEEE/IFIP International Conference on Dependable Systems and Networks.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fulva: Efficient Live Migration for In-memory Key-Value Stores with Zero Downtime</title>
+      <link>/publication/fulva/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/fulva/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Jiewen Hai, Cheng Wang, Xusheng Chen, Tsz On Li, Heming Cui, Sen Wang. Proceedings of the 38th IEEE International Symposium on Reliable Distributed Systems 2019
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OWL: Understanding and Detecting Concurrency Attacks</title>
+      <link>/publication/owl/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/owl/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Shixiong Zhao, Rui Gu, Haoran Qiu, Tsz On Li, Yuexuan Wang, Heming Cui, Junfeng Yang. Proceedings of the 48th IEEE/IFIP International Conference on Dependable Systems and Networks 2018.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
