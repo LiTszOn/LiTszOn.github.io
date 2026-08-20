@@ -2124,15 +2124,38 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
   <script src="/en/js/wowchemy.min.71e713848164e269bc250f377042949d.js"></script>
 
   <script>
-    window.addEventListener('load', function () {
-      var body = document.body, $ = window.jQuery;
+    (function () {
+      var $ = window.jQuery;
       if (!$) return;
-      var sp = $(body).data('bs.scrollspy');
-      if (sp) {
-        sp._config.offset = $('#navbar-main').outerHeight() + 2;
-        $(body).scrollspy('refresh');
+      var body = document.body;
+      function log() {
+        if (window.console) console.log.apply(console, ['[navfix]'].concat([].slice.call(arguments)));
       }
-    });
+      window.addEventListener('load', function () {
+        var sp = $(body).data('bs.scrollspy');
+        log('load: scrollspy found =', !!sp);
+        if (sp) {
+          log('before: offset =', sp._config.offset, '| navbar height =', $('#navbar-main').outerHeight(),
+              '| targets =', sp._targets, '| offsets =', sp._offsets.map(function (x) { return Math.round(x); }));
+          sp._config.offset = $('#navbar-main').outerHeight() + 5;
+          $(body).scrollspy('refresh');
+          log('after: offset =', sp._config.offset);
+        }
+      });
+      $(document).on('click', '#navbar-main li.nav-item a.nav-link', function () {
+        var a = this, target = a.getAttribute('data-target') || a.getAttribute('href');
+        if (!target || target === '#' || !document.querySelector(target)) return;
+        setTimeout(function () {
+          var act = [];
+          $('#navbar-main a.nav-link.active').each(function () { act.push(this.getAttribute('data-target') || this.getAttribute('href')); });
+          log('click', target, '-> scrollY =', Math.round(window.scrollY),
+              '| patent rectTop =', Math.round($('#patent').getBoundingClientRect().top),
+              '| active =', act.length ? act.join(',') : 'NONE');
+          $('#navbar-main a.nav-link').removeClass('active');
+          $(a).addClass('active');
+        }, 950);
+      });
+    })();
   </script>
 
 
