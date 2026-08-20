@@ -3,7 +3,7 @@
   (() => {
     var a = document.body, e, f;
     function b() {
-      return parseInt(localStorage.getItem("wcTheme") || 2);
+      return parseInt(localStorage.getItem("wcTheme") || 0);
     }
     function c() {
       return Boolean(window.wc.darkLightEnabled);

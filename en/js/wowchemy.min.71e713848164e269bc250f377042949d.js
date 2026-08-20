@@ -188,7 +188,7 @@
     }
     d = document.body;
     function u() {
-      return parseInt(localStorage.getItem("wcTheme") || 2);
+      return parseInt(localStorage.getItem("wcTheme") || 0);
     }
     function l() {
       return Boolean(window.wc.darkLightEnabled);
