@@ -794,11 +794,11 @@
 
               <div class="portrait-title">
                 <h2>Li Tsz On</h2>
-                <h3>PhD Student</h3>
+                <h3>Ph.D. Student</h3>
 
 
                 <h3>
-                  <a href="https://www.hku.hk/" target="_blank" rel="noopener">
+                  <a href="https://hkust.edu.hk/" target="_blank" rel="noopener">
                     <span>The Hong Kong University of Science and Technology</span>
                   </a>
                 </h3>
@@ -857,9 +857,10 @@
             <h1>Biography</h1>
 
             <div class="article-style">
-              <p>I am a PhD student at the Hong Kong University of Science and Technology under the supervision of <a
+              <p>I am a Ph.D. student at the <a href="https://hkust.edu.hk/" target="_blank" rel="noopener">The Hong Kong University of Science and Technology
+                  </a> under the supervision of <a
                   href="https://www.cse.ust.hk/~scc/" target="_blank">Prof. Shing-Chi Cheung</a>. I was an M.Phil.
-                student at the University of Hong Kong under the supervision of <a href="https://i.cs.hku.hk/~heming/"
+                student at <a href="https://www.hku.hk/" target="_blank" rel="noopener">The University of Hong Kong</a> under the supervision of <a href="https://i.cs.hku.hk/~heming/"
                   target="_blank">Dr. Heming Cui</a> and <a href="https://i.cs.hku.hk/~clwang/" target="_blank">Prof.
                   Cho-Li Wang</a>. My research lies at the intersection of Software Engineering and Artificial
                 Intelligence, currently focusing on exposing software faults or vulnerabilities using Large Language
@@ -871,7 +872,7 @@
               <!-- 我用中文沟通
 LI, Tsz On is currently an M.Phil. student of 
 computer science at the University of Hong Kong. 
-He will start pursing a Ph.D. degree at the 
+He will start pursing a Ph.D.. degree at the 
 Hong Kong University of Science and Technology 
 from September 2021. His research 
 interests include arti -->
@@ -2121,6 +2122,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
 
 
   <script src="/en/js/wowchemy.min.71e713848164e269bc250f377042949d.js"></script>
+
+  <script>
+    window.addEventListener('load', function () {
+      var body = document.body, $ = window.jQuery;
+      if (!$) return;
+      var sp = $(body).data('bs.scrollspy');
+      if (sp) {
+        sp._config.offset = $('#navbar-main').outerHeight() + 2;
+        $(body).scrollspy('refresh');
+      }
+    });
+  </script>
+
+
+
+
+</body>
 
 
 
