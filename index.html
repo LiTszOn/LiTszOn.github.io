@@ -2149,7 +2149,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
           var act = [];
           $('#navbar-main a.nav-link.active').each(function () { act.push(this.getAttribute('data-target') || this.getAttribute('href')); });
           log('click', target, '-> scrollY =', Math.round(window.scrollY),
-              '| patent rectTop =', Math.round($('#patent').getBoundingClientRect().top),
+              '| patent rectTop =', Math.round(document.getElementById('patent').getBoundingClientRect().top),
               '| active =', act.length ? act.join(',') : 'NONE');
           $('#navbar-main a.nav-link').removeClass('active');
           $(a).addClass('active');
